@@ -1,0 +1,34 @@
+.margin50{
+    margin-left: 50px;
+    /* margin-top: 50px; */
+    margin-right: 50px;
+    /* text-align: justify; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    display: flex;
+}
+.small{
+display: none;
+}
+
+@media (max-width: 768px) {
+    .margin50{
+        margin-left: 0px;
+        /* margin-top: 50px; */
+        margin-right: 0px;
+        /* text-align: justify; */
+
+    }
+   .big{
+    display: none;
+
+   }
+   .small{
+    display: flex;
+   } 
+}
