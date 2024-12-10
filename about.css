@@ -1,0 +1,32 @@
+.margin50{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+p{
+    order: -1; 
+}
+img{
+    height: 200px;
+    margin: 0px 50px;
+    
+}
+div{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    img{
+        height: 140px;
+        margin: 0px;
+        order: -1;
+        margin-bottom: 30px;
+    }
+    div{
+        flex-direction: column;
+        align-items: center;   
+    }
+    
+}
